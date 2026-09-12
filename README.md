@@ -1,22 +1,30 @@
 <div align="center">
 
 <h1>Hi 👋, I'm Gaurav Kushwah</h1>
-<h3>📍 From Gwalior, Madhya Pradesh, India</h3>
 
-<p>
-💼 Currently working and gaining hands-on experience<br/>
-🌱 Always learning new things and improving myself<br/>
-🤝 Love connecting with new people<br/>
-📫 Reach me at: gauravkushwah8518@gmail.com
-</p>
+</div>
 
-## 🌐 Socials:
+                                                                                   ## 💫 About Me:
+
+- 📍 From Gwalior, Madhya Pradesh, India
+
+- 💼 Currently working and gaining hands-on experience
+
+- 🌱 Always learning new things and improving myself
+
+- 🤝 Love connecting with new people
+
+- 📫 Reach me at: gauravkushwah8518@gmail.com
+
+<div align="center">
+
+                                                                                     ## 🌐 Socials:
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/gaurav_ig__k) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Gauravkush9179) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gauravkushwah8518@gmail.com)
 
 ---
 
-### 🐍 Contribution Snake
+                                                                                ### 🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauravkushwah8518-rgb/gauravkushwah8518-rgb/output/github-contribution-grid-snake-dark.svg">
