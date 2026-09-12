@@ -57,6 +57,23 @@
 
 ---
 
+## 📊 GitHub Activity :-
+
+<p align="center">
+  <a href="https://github.com/gauravkushwah8518-rgb">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gauravkushwah8518-rgb&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Gaurav's GitHub stats" />
+  </a>
+  <a href="https://github.com/gauravkushwah8518-rgb">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravkushwah8518-rgb&layout=compact&theme=tokyonight" alt="Most used languages" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=gauravkushwah8518-rgb&theme=tokyonight" alt="Gaurav's GitHub streak" />
+</p>
+
+---
+
 ## 🐍 Contribution Snake :-
 
 <p align="center">
