@@ -47,7 +47,7 @@
 
 ---
 
-## 👩‍💻 About Me
+## 👩‍💻 About Me :-
 
 - 📍 From Gwalior, Madhya Pradesh, India
 - 💼 Currently working and gaining hands-on experience
@@ -57,7 +57,7 @@
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Snake :-
 
 <p align="center">
   <picture>
@@ -69,7 +69,7 @@
 
 ---
 
-## 🤝 Let's Connect
+## 🤝 Let's  ->
 
 <p align="center">
   <a href="https://instagram.com/gaurav_ig__k">
