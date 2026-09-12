@@ -12,7 +12,7 @@
 
 ## 🌐 Socials:
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/gaurav_ig__k) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Gauravkush9179) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@Gaurav Kushwah) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gauravkushwah8518@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/gaurav_ig__k) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Gauravkush9179) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gauravkushwah8518@gmail.com)
 
 ---
 
