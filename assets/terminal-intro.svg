@@ -1,4 +1,4 @@
-<svg width="650" height="270" viewBox="0 0 650 270" xmlns="http://www.w3.org/2000/svg">
+<svg width="650" height="215" viewBox="0 0 650 215" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="titlebar" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#2B0B33"/>
@@ -21,17 +21,17 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
 
-    <clipPath id="c1"><rect x="24" y="56" width="0" height="20"><animate attributeName="width" values="0;0;120;120;120;0" keyTimes="0;0.01;0.06;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c2"><rect x="24" y="80" width="0" height="20"><animate attributeName="width" values="0;0;460;460;460;0" keyTimes="0;0.07;0.26;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c3"><rect x="24" y="112" width="0" height="20"><animate attributeName="width" values="0;0;185;185;185;0" keyTimes="0;0.28;0.35;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c4"><rect x="24" y="136" width="0" height="20"><animate attributeName="width" values="0;0;390;390;390;0" keyTimes="0;0.36;0.43;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c5"><rect x="24" y="156" width="0" height="20"><animate attributeName="width" values="0;0;395;395;395;0" keyTimes="0;0.44;0.51;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c6"><rect x="24" y="176" width="0" height="20"><animate attributeName="width" values="0;0;400;400;400;0" keyTimes="0;0.52;0.59;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c7"><rect x="24" y="206" width="0" height="20"><animate attributeName="width" values="0;0;120;120;120;0" keyTimes="0;0.61;0.66;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c8"><rect x="24" y="230" width="0" height="18"><animate attributeName="width" values="0;0;505;505;505;0" keyTimes="0;0.67;0.76;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c1"><rect x="24" y="44" width="0" height="18"><animate attributeName="width" values="0;0;120;120;120;0" keyTimes="0;0.01;0.06;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="24" y="62" width="0" height="18"><animate attributeName="width" values="0;0;460;460;460;0" keyTimes="0;0.07;0.26;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="24" y="84" width="0" height="18"><animate attributeName="width" values="0;0;185;185;185;0" keyTimes="0;0.28;0.35;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="24" y="102" width="0" height="18"><animate attributeName="width" values="0;0;390;390;390;0" keyTimes="0;0.36;0.43;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="24" y="120" width="0" height="18"><animate attributeName="width" values="0;0;395;395;395;0" keyTimes="0;0.44;0.51;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="24" y="138" width="0" height="18"><animate attributeName="width" values="0;0;400;400;400;0" keyTimes="0;0.52;0.59;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c7"><rect x="24" y="160" width="0" height="18"><animate attributeName="width" values="0;0;120;120;120;0" keyTimes="0;0.61;0.66;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c8"><rect x="24" y="178" width="0" height="17"><animate attributeName="width" values="0;0;505;505;505;0" keyTimes="0;0.67;0.76;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
-  <rect x="1" y="1" width="648" height="268" rx="12" fill="#0A0514" stroke="url(#tborder)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="648" height="213" rx="12" fill="#0A0514" stroke="url(#tborder)" stroke-width="1.5"/>
   <rect x="1" y="1" width="648" height="34" rx="12" fill="url(#titlebar)"/>
   <rect x="1" y="20" width="648" height="15" fill="url(#titlebar)"/>
 
@@ -44,7 +44,7 @@
   <circle cx="64" cy="16.5" r="2.2" fill="#ffffff" fill-opacity="0.35"/>
 
   <!-- title -->
-  <text x="290" y="23" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" fill="#F9A8D4" fill-opacity="0.8">gaurav@dev-machine: ~</text>
+  <text x="290" y="23" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#F9A8D4" fill-opacity="0.8">gaurav@dev-machine: ~</text>
 
   <!-- online pill -->
   <g transform="translate(618,18)">
@@ -52,53 +52,51 @@
     <circle cx="-32" cy="0" r="3.2" fill="#F472B6">
       <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="8" y="4" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" fill="#F9A8D4" letter-spacing="1">ONLINE</text>
+    <text x="8" y="4" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#F9A8D4" letter-spacing="1">ONLINE</text>
   </g>
 
   <!-- subtle scanlines -->
   <g stroke="#F472B6" stroke-opacity="0.05">
-    <line x1="0" y1="50" x2="650" y2="50"/>
-    <line x1="0" y1="70" x2="650" y2="70"/>
-    <line x1="0" y1="90" x2="650" y2="90"/>
-    <line x1="0" y1="110" x2="650" y2="110"/>
-    <line x1="0" y1="130" x2="650" y2="130"/>
-    <line x1="0" y1="150" x2="650" y2="150"/>
-    <line x1="0" y1="170" x2="650" y2="170"/>
-    <line x1="0" y1="190" x2="650" y2="190"/>
-    <line x1="0" y1="210" x2="650" y2="210"/>
-    <line x1="0" y1="230" x2="650" y2="230"/>
-    <line x1="0" y1="250" x2="650" y2="250"/>
+    <line x1="0" y1="44" x2="650" y2="44"/>
+    <line x1="0" y1="64" x2="650" y2="64"/>
+    <line x1="0" y1="84" x2="650" y2="84"/>
+    <line x1="0" y1="104" x2="650" y2="104"/>
+    <line x1="0" y1="124" x2="650" y2="124"/>
+    <line x1="0" y1="144" x2="650" y2="144"/>
+    <line x1="0" y1="164" x2="650" y2="164"/>
+    <line x1="0" y1="184" x2="650" y2="184"/>
+    <line x1="0" y1="204" x2="650" y2="204"/>
   </g>
 
-  <g font-family="'Courier New', monospace" font-size="15" fill="#FCE7F3">
+  <g font-family="'Courier New', monospace" font-size="13" fill="#FCE7F3">
     <g clip-path="url(#c1)">
-      <text x="24" y="70" fill="#2DE2E6">$ <tspan fill="#FCE7F3">whoami</tspan></text>
+      <text x="24" y="56" fill="#2DE2E6">$ <tspan fill="#FCE7F3">whoami</tspan></text>
     </g>
     <g clip-path="url(#c2)">
-      <text x="24" y="94" fill="#F472B6">&gt; Gaurav Kushwah — interactive, accessible, cinematic web.</text>
+      <text x="24" y="74" fill="#F472B6">&gt; Gaurav Kushwah — interactive, accessible, cinematic web.</text>
     </g>
     <g clip-path="url(#c3)">
-      <text x="24" y="126" fill="#2DE2E6">$ <tspan fill="#FCE7F3">cat focus.yaml</tspan></text>
+      <text x="24" y="96" fill="#2DE2E6">$ <tspan fill="#FCE7F3">cat focus.yaml</tspan></text>
     </g>
     <g clip-path="url(#c4)">
-      <text x="24" y="150" fill="#F9A8D4">  frontend: [ React, Three.js, GSAP, WebGL ]</text>
+      <text x="24" y="114" fill="#F9A8D4">  frontend: [ React, Three.js, GSAP, WebGL ]</text>
     </g>
     <g clip-path="url(#c5)">
-      <text x="24" y="170" fill="#F9A8D4">  design:   [ glassmorphism, dark UI, motion ]</text>
+      <text x="24" y="132" fill="#F9A8D4">  design:   [ glassmorphism, dark UI, motion ]</text>
     </g>
     <g clip-path="url(#c6)">
-      <text x="24" y="190" fill="#F9A8D4">  now:      [ AccessEase, GAURAV.OS, StudyOS ]</text>
+      <text x="24" y="150" fill="#F9A8D4">  now:      [ AccessEase, GAURAV.OS, StudyOS ]</text>
     </g>
     <g clip-path="url(#c7)">
-      <text x="24" y="220" fill="#2DE2E6">$ <tspan fill="#FCE7F3">status --vibes</tspan></text>
+      <text x="24" y="172" fill="#2DE2E6">$ <tspan fill="#FCE7F3">status --vibes</tspan></text>
     </g>
     <g clip-path="url(#c8)">
-      <text x="24" y="244" fill="#A78BFA">✔ shipping clean code<tspan fill="#F9A8D4"> · open to collaborate · always building</tspan></text>
+      <text x="24" y="190" fill="#A78BFA">✔ shipping clean code<tspan fill="#F9A8D4"> · open to collaborate · always building</tspan></text>
     </g>
   </g>
 
   <!-- blinking cursor after the status command -->
-  <rect x="172" y="209" width="9" height="15" fill="#A78BFA" opacity="0">
+  <rect x="133" y="161" width="8" height="13" fill="#A78BFA" opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0;1;0;1;0;0" keyTimes="0;0.61;0.66;0.69;0.72;0.75;0.78;0.81;0.96;1" dur="12s" repeatCount="indefinite"/>
   </rect>
 </svg>

@@ -30,9 +30,7 @@
   &nbsp;
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/03_Tech-2DE2E6?style=flat-square&labelColor=1A0B22" alt="Tech"/></a>
   &nbsp;
-  <a href="#-github-stats"><img src="https://img.shields.io/badge/04_Stats-2DE2E6?style=flat-square&labelColor=1A0B22" alt="Stats"/></a>
-  &nbsp;
-  <a href="#-connect-with-me"><img src="https://img.shields.io/badge/05_Connect-F472B6?style=flat-square&labelColor=1A0B22" alt="Connect"/></a>
+  <a href="#-connect-with-me"><img src="https://img.shields.io/badge/04_Connect-F472B6?style=flat-square&labelColor=1A0B22" alt="Connect"/></a>
 
 </div>
 
@@ -187,22 +185,6 @@ An AI-powered learning platform with an AI tutor, quizzes, flashcards, notes, an
 
   <br/><br/>
 
-</div>
-
-<br/>
-<img src="./assets/divider.svg" width="100%"/>
-<br/>
-
-<!-- GITHUB STATS -->
-<a id="-github-stats"></a>
-<img src="./assets/section-stats.svg" alt="GitHub Stats"/>
-
-<br/><br/>
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gauravkushwah8518-rgb&show_icons=true&hide_border=true&bg_color=0,1A0B22&title_color=FF2975&icon_color=A78BFA&text_color=F5F3FF" alt="GitHub Stats"/>
-  &nbsp;
-  <img height="165" src="https://streak-stats.demolab.com?user=gauravkushwah8518-rgb&hide_border=true&background=1A0B22&ring=FF2975&fire=A78BFA&currStreakLabel=2DE2E6&sideLabels=A78BFA&currStreakNum=F5F3FF&sideNums=F5F3FF&dates=8B7FA8" alt="GitHub Streak"/>
 </div>
 
 <br/>
