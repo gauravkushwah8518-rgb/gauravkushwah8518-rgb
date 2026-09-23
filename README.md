@@ -190,6 +190,14 @@ Building something interesting? My inbox is always open.
 <a href="mailto:gauravkushwah8518@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A0B22" alt="Gmail"/>
 </a>
+&nbsp;
+<a href="https://www.instagram.com/gaurav_ig__k/" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=1A0B22" alt="Instagram"/>
+</a>
+&nbsp;
+<a href="https://x.com/Gauravkush9179" target="_blank">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=1A0B22" alt="X"/>
+</a>
 
 </div>
 
