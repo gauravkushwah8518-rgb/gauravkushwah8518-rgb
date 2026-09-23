@@ -1,0 +1,32 @@
+<svg width="340" height="60" viewBox="0 0 340 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2975">
+        <animate attributeName="stop-color" values="#FF2975;#2DE2E6;#A78BFA;#FF2975" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#A78BFA">
+        <animate attributeName="stop-color" values="#A78BFA;#FF2975;#2DE2E6;#A78BFA" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#2DE2E6">
+        <animate attributeName="stop-color" values="#2DE2E6;#A78BFA;#FF2975;#2DE2E6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="aboutGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <text x="0" y="24" font-family="'Courier New', monospace" font-size="13" fill="#A78BFA" opacity="0.75">01</text>
+  <g transform="translate(34,0)">
+    <path d="M6,18 L6,12 L10,12" stroke="url(#aboutA)" stroke-width="1.6" fill="none"/>
+    <path d="M6,42 L6,48 L10,48" stroke="url(#aboutA)" stroke-width="1.6" fill="none"/>
+    <rect x="10" y="8" width="4" height="4" fill="url(#aboutA)"/>
+    <rect x="10" y="48" width="4" height="4" fill="url(#aboutA)"/>
+    <g transform="translate(20,10) scale(1.67)">
+      <circle cx="12" cy="8.2" r="3.6" fill="none" stroke="url(#aboutA)" stroke-width="1.8"/>
+      <path d="M4.8 19.6 c0-4.4 3.2-6.8 7.2-6.8 s7.2,2.4 7.2,6.8" fill="none" stroke="url(#aboutA)" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+    <text x="60" y="37" font-family="'Courier New', monospace" font-size="24" font-weight="700" fill="#F5F3FF" filter="url(#aboutGlow)" letter-spacing="2">ABOUT ME<tspan fill="#F472B6"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>_</tspan></text>
+  </g>
+</svg>

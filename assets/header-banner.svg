@@ -1,0 +1,182 @@
+<svg width="900" height="230" viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0514"/>
+      <stop offset="55%" stop-color="#1A0B22"/>
+      <stop offset="100%" stop-color="#230A38"/>
+    </linearGradient>
+    <linearGradient id="hglow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2975">
+        <animate attributeName="stop-color" values="#FF2975;#2DE2E6;#A78BFA;#FF2975" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#A78BFA">
+        <animate attributeName="stop-color" values="#A78BFA;#FF2975;#2DE2E6;#A78BFA" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#2DE2E6">
+        <animate attributeName="stop-color" values="#2DE2E6;#A78BFA;#FF2975;#2DE2E6" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="namegrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F9A8D4">
+        <animate attributeName="stop-color" values="#F9A8D4;#67E8F9;#BEF264;#F9A8D4" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#F5D0FE">
+        <animate attributeName="stop-color" values="#F5D0FE;#F9A8D4;#67E8F9;#F5D0FE" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#67E8F9">
+        <animate attributeName="stop-color" values="#67E8F9;#BEF264;#F9A8D4;#67E8F9" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="orbg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF2975" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF2975" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbl" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbc" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DE2E6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#2DE2E6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="hsoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- strong two-layer breathing neon glow for the name -->
+    <filter id="nameglow" x="-30%" y="-90%" width="160%" height="280%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14" result="halo1">
+        <animate attributeName="stdDeviation" values="10;16;10" dur="5s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feFlood flood-color="#FF2975" flood-opacity="0.85" result="c1"/>
+      <feComposite in="c1" in2="halo1" operator="in" result="glow1"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="halo2">
+        <animate attributeName="stdDeviation" values="4;7;4" dur="5s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feFlood flood-color="#A78BFA" flood-opacity="0.9" result="c2"/>
+      <feComposite in="c2" in2="halo2" operator="in" result="glow2"/>
+      <feMerge>
+        <feMergeNode in="glow1"/>
+        <feMergeNode in="glow2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="230" fill="url(#hbg)"/>
+
+  <!-- matrix rain : subtle falling glyph columns behind everything -->
+  <g font-family="'Courier New', monospace" font-size="11" font-weight="600">
+    <g fill="#F472B6" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="13s" begin="-4s" repeatCount="indefinite"/>
+      <text x="30" y="0">1<tspan x="30" dy="13">0</tspan><tspan x="30" dy="13">1</tspan><tspan x="30" dy="13">1</tspan><tspan x="30" dy="13">0</tspan><tspan x="30" dy="13">1</tspan><tspan x="30" dy="13">0</tspan></text>
+    </g>
+    <g fill="#F9A8D4" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="9s" begin="-1s" repeatCount="indefinite"/>
+      <text x="88" y="0">0<tspan x="88" dy="13">1</tspan><tspan x="88" dy="13">1</tspan><tspan x="88" dy="13">0</tspan><tspan x="88" dy="13">1</tspan><tspan x="88" dy="13">0</tspan><tspan x="88" dy="13">0</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="15s" begin="-8s" repeatCount="indefinite"/>
+      <text x="148" y="0">1<tspan x="148" dy="13">0</tspan><tspan x="148" dy="13">&lt;</tspan><tspan x="148" dy="13">&gt;</tspan><tspan x="148" dy="13">0</tspan><tspan x="148" dy="13">1</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="11s" begin="-6s" repeatCount="indefinite"/>
+      <text x="208" y="0">0<tspan x="208" dy="13">1</tspan><tspan x="208" dy="13">0</tspan><tspan x="208" dy="13">0</tspan><tspan x="208" dy="13">1</tspan><tspan x="208" dy="13">1</tspan><tspan x="208" dy="13">0</tspan></text>
+    </g>
+    <g fill="#A78BFA" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="8.5s" begin="-3s" repeatCount="indefinite"/>
+      <text x="268" y="0">1<tspan x="268" dy="13">;</tspan><tspan x="268" dy="13">0</tspan><tspan x="268" dy="13">=</tspan><tspan x="268" dy="13">1</tspan><tspan x="268" dy="13">0</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="14s" begin="-10s" repeatCount="indefinite"/>
+      <text x="330" y="0">0<tspan x="330" dy="13">1</tspan><tspan x="330" dy="13">1</tspan><tspan x="330" dy="13">0</tspan><tspan x="330" dy="13">1</tspan><tspan x="330" dy="13">0</tspan><tspan x="330" dy="13">1</tspan></text>
+    </g>
+    <g fill="#2DE2E6" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="10s" begin="-5s" repeatCount="indefinite"/>
+      <text x="395" y="0">1<tspan x="395" dy="13">0</tspan><tspan x="395" dy="13">{</tspan><tspan x="395" dy="13">0</tspan><tspan x="395" dy="13">}</tspan><tspan x="395" dy="13">1</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="16s" begin="-12s" repeatCount="indefinite"/>
+      <text x="462" y="0">1<tspan x="462" dy="13">0</tspan><tspan x="462" dy="13">1</tspan><tspan x="462" dy="13">0</tspan><tspan x="462" dy="13">1</tspan><tspan x="462" dy="13">1</tspan><tspan x="462" dy="13">0</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="9.5s" begin="-2s" repeatCount="indefinite"/>
+      <text x="525" y="0">0<tspan x="525" dy="13">1</tspan><tspan x="525" dy="13">1</tspan><tspan x="525" dy="13">0</tspan><tspan x="525" dy="13">0</tspan><tspan x="525" dy="13">1</tspan><tspan x="525" dy="13">0</tspan></text>
+    </g>
+    <g fill="#F9A8D4" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="12.5s" begin="-7s" repeatCount="indefinite"/>
+      <text x="588" y="0">1<tspan x="588" dy="13">0</tspan><tspan x="588" dy="13">/</tspan><tspan x="588" dy="13">0</tspan><tspan x="588" dy="13">1</tspan><tspan x="588" dy="13">1</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.14">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="10.5s" begin="-9s" repeatCount="indefinite"/>
+      <text x="650" y="0">0<tspan x="650" dy="13">1</tspan><tspan x="650" dy="13">0</tspan><tspan x="650" dy="13">1</tspan><tspan x="650" dy="13">1</tspan><tspan x="650" dy="13">0</tspan><tspan x="650" dy="13">1</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="14.5s" begin="-3.5s" repeatCount="indefinite"/>
+      <text x="712" y="0">1<tspan x="712" dy="13">0</tspan><tspan x="712" dy="13">1</tspan><tspan x="712" dy="13">0</tspan><tspan x="712" dy="13">1</tspan><tspan x="712" dy="13">0</tspan><tspan x="712" dy="13">0</tspan></text>
+    </g>
+    <g fill="#A78BFA" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="11.5s" begin="-6.5s" repeatCount="indefinite"/>
+      <text x="772" y="0">0<tspan x="772" dy="13">;</tspan><tspan x="772" dy="13">1</tspan><tspan x="772" dy="13">1</tspan><tspan x="772" dy="13">=</tspan><tspan x="772" dy="13">0</tspan><tspan x="772" dy="13">1</tspan></text>
+    </g>
+    <g fill="#F472B6" opacity="0.15">
+      <animateTransform attributeName="transform" type="translate" from="0 -140" to="0 250" dur="9s" begin="-4.5s" repeatCount="indefinite"/>
+      <text x="838" y="0">0<tspan x="838" dy="13">1</tspan><tspan x="838" dy="13">1</tspan><tspan x="838" dy="13">0</tspan><tspan x="838" dy="13">1</tspan><tspan x="838" dy="13">0</tspan><tspan x="838" dy="13">1</tspan></text>
+    </g>
+  </g>
+
+  <!-- aurora orbs -->
+  <ellipse cx="120" cy="30" rx="260" ry="140" fill="url(#orbg)">
+    <animate attributeName="cx" values="120;230;120" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="790" cy="210" rx="280" ry="140" fill="url(#orbl)">
+    <animate attributeName="cx" values="790;660;790" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="450" cy="120" rx="230" ry="110" fill="url(#orbc)" opacity="0.5">
+    <animate attributeName="cy" values="120;85;120" dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- dot matrix -->
+  <g fill="#F472B6" opacity="0.15">
+    <circle cx="30" cy="28" r="1.2"/><circle cx="70" cy="28" r="1.2"/><circle cx="110" cy="28" r="1.2"/><circle cx="150" cy="28" r="1.2"/><circle cx="190" cy="28" r="1.2"/><circle cx="230" cy="28" r="1.2"/><circle cx="270" cy="28" r="1.2"/><circle cx="310" cy="28" r="1.2"/><circle cx="350" cy="28" r="1.2"/><circle cx="390" cy="28" r="1.2"/><circle cx="430" cy="28" r="1.2"/><circle cx="470" cy="28" r="1.2"/><circle cx="510" cy="28" r="1.2"/><circle cx="550" cy="28" r="1.2"/><circle cx="590" cy="28" r="1.2"/><circle cx="630" cy="28" r="1.2"/><circle cx="670" cy="28" r="1.2"/><circle cx="710" cy="28" r="1.2"/><circle cx="750" cy="28" r="1.2"/><circle cx="790" cy="28" r="1.2"/><circle cx="830" cy="28" r="1.2"/><circle cx="870" cy="28" r="1.2"/>
+    <circle cx="30" cy="56" r="1.2"/><circle cx="70" cy="56" r="1.2"/><circle cx="150" cy="56" r="1.2"/><circle cx="190" cy="56" r="1.2"/><circle cx="270" cy="56" r="1.2"/><circle cx="310" cy="56" r="1.2"/><circle cx="390" cy="56" r="1.2"/><circle cx="430" cy="56" r="1.2"/><circle cx="510" cy="56" r="1.2"/><circle cx="550" cy="56" r="1.2"/><circle cx="630" cy="56" r="1.2"/><circle cx="670" cy="56" r="1.2"/><circle cx="750" cy="56" r="1.2"/><circle cx="790" cy="56" r="1.2"/><circle cx="870" cy="56" r="1.2"/>
+    <circle cx="30" cy="176" r="1.2"/><circle cx="70" cy="176" r="1.2"/><circle cx="150" cy="176" r="1.2"/><circle cx="190" cy="176" r="1.2"/><circle cx="270" cy="176" r="1.2"/><circle cx="310" cy="176" r="1.2"/><circle cx="390" cy="176" r="1.2"/><circle cx="430" cy="176" r="1.2"/><circle cx="510" cy="176" r="1.2"/><circle cx="550" cy="176" r="1.2"/><circle cx="630" cy="176" r="1.2"/><circle cx="670" cy="176" r="1.2"/><circle cx="750" cy="176" r="1.2"/><circle cx="790" cy="176" r="1.2"/><circle cx="870" cy="176" r="1.2"/>
+    <circle cx="30" cy="204" r="1.2"/><circle cx="70" cy="204" r="1.2"/><circle cx="110" cy="204" r="1.2"/><circle cx="150" cy="204" r="1.2"/><circle cx="190" cy="204" r="1.2"/><circle cx="230" cy="204" r="1.2"/><circle cx="270" cy="204" r="1.2"/><circle cx="310" cy="204" r="1.2"/><circle cx="350" cy="204" r="1.2"/><circle cx="390" cy="204" r="1.2"/><circle cx="430" cy="204" r="1.2"/><circle cx="470" cy="204" r="1.2"/><circle cx="510" cy="204" r="1.2"/><circle cx="550" cy="204" r="1.2"/><circle cx="590" cy="204" r="1.2"/><circle cx="630" cy="204" r="1.2"/><circle cx="670" cy="204" r="1.2"/><circle cx="710" cy="204" r="1.2"/><circle cx="750" cy="204" r="1.2"/><circle cx="790" cy="204" r="1.2"/><circle cx="830" cy="204" r="1.2"/><circle cx="870" cy="204" r="1.2"/>
+  </g>
+
+  <!-- frame -->
+  <rect x="0.5" y="0.5" width="899" height="229" fill="none" stroke="#FF2975" stroke-opacity="0.35" stroke-width="1"/>
+  <path d="M18,22 L18,40 M18,22 L36,22" stroke="url(#hglow)" stroke-width="2.2" fill="none" opacity="0.85"/>
+  <path d="M882,22 L882,40 M882,22 L864,22" stroke="url(#hglow)" stroke-width="2.2" fill="none" opacity="0.85"/>
+  <path d="M18,208 L18,190 M18,208 L36,208" stroke="url(#hglow)" stroke-width="2.2" fill="none" opacity="0.85"/>
+  <path d="M882,208 L882,190 M882,208 L864,208" stroke="url(#hglow)" stroke-width="2.2" fill="none" opacity="0.85"/>
+  <path d="M18,115 L14,115" stroke="url(#hglow)" stroke-width="2" opacity="0.7"/>
+  <path d="M882,115 L886,115" stroke="url(#hglow)" stroke-width="2" opacity="0.7"/>
+
+  <!-- name with strong breathing neon glow -->
+  <text x="450" y="105" text-anchor="middle" font-family="'Courier New', monospace" font-size="54" font-weight="700" fill="url(#namegrad)" filter="url(#nameglow)" letter-spacing="4">
+    GAURAV KUSHWAH
+  </text>
+
+  <!-- subtitle -->
+  <text x="450" y="140" text-anchor="middle" font-family="'Courier New', monospace" font-size="17" fill="#FCE7F3" fill-opacity="0.88" letter-spacing="1">
+    Frontend Developer <tspan fill="#A78BFA">•</tspan> UI/UX Builder <tspan fill="#2DE2E6">•</tspan> Immersive Web Craftsman
+    <animate attributeName="fill-opacity" values="0.55;0.95;0.55" dur="3.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- location chip -->
+  <g transform="translate(450,184)">
+    <rect x="-118" y="-15" width="236" height="30" rx="15" fill="#1A0B22" stroke="#FF2975" stroke-opacity="0.45" stroke-width="1"/>
+    <path d="M-104,0 c0,-6 4.5,-9.5 9,-9.5 s9,3.5 9,9.5 c0,4.5 -4.5,9.5 -9,9.5 s-9,-5 -9,-9.5 Z" fill="none" stroke="#A78BFA" stroke-width="1.8"/>
+    <circle cx="-95" cy="0" r="3.4" fill="none" stroke="#A78BFA" stroke-width="1.8"/>
+    <circle cx="-95" cy="0" r="1.4" fill="#A78BFA"/>
+    <circle cx="-104" cy="0" r="2" fill="#A78BFA">
+      <animate attributeName="r" values="2;5;2" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="8" y="5" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#F5D0FE" letter-spacing="1">GWALIOR · INDIA</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="900" height="26" viewBox="0 0 900 26" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dline" gradientUnits="userSpaceOnUse" x1="0" y1="13" x2="900" y2="13">
+      <stop offset="0%" stop-color="#0A0514"/>
+      <stop offset="18%" stop-color="#FF2975">
+        <animate attributeName="stop-color" values="#FF2975;#2DE2E6;#A78BFA;#FF2975" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#A78BFA">
+        <animate attributeName="stop-color" values="#A78BFA;#FF2975;#2DE2E6;#A78BFA" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="82%" stop-color="#2DE2E6">
+        <animate attributeName="stop-color" values="#2DE2E6;#A78BFA;#FF2975;#2DE2E6" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0A0514"/>
+    </linearGradient>
+  </defs>
+
+  <line x1="0" y1="13" x2="900" y2="13" stroke="url(#dline)" stroke-width="2.5"/>
+  <line x1="0" y1="13" x2="900" y2="13" stroke="url(#dline)" stroke-width="6" opacity="0.25"/>
+
+  <!-- traveling pulse -->
+  <circle r="3.5" fill="#FFFFFF" opacity="0.9">
+    <animate attributeName="cx" values="60;840" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="13;13" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0" keyTimes="0;0.1;0.85;1" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- center diamond -->
+  <rect x="442" y="5" width="16" height="16" rx="3" transform="rotate(45 450 13)" fill="#0A0514" stroke="url(#dline)" stroke-width="1.6"/>
+  <rect x="447" y="10" width="6" height="6" rx="1" transform="rotate(45 450 13)" fill="url(#dline)"/>
+</svg>
