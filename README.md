@@ -19,7 +19,7 @@
 
   <br/><br/>
 
-  <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="650"/>
+  <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="100%"/>
 
   <br/><br/>
 
@@ -30,7 +30,9 @@
   &nbsp;
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/03_Tech-2DE2E6?style=flat-square&labelColor=1A0B22" alt="Tech"/></a>
   &nbsp;
-  <a href="#-connect-with-me"><img src="https://img.shields.io/badge/04_Connect-F472B6?style=flat-square&labelColor=1A0B22" alt="Connect"/></a>
+  <a href="#-github-stats"><img src="https://img.shields.io/badge/04_Stats-2DE2E6?style=flat-square&labelColor=1A0B22" alt="Stats"/></a>
+  &nbsp;
+  <a href="#-connect-with-me"><img src="https://img.shields.io/badge/05_Connect-F472B6?style=flat-square&labelColor=1A0B22" alt="Connect"/></a>
 
 </div>
 
@@ -53,6 +55,10 @@ name: Gaurav Kushwah
 located_in: Gwalior, Madhya Pradesh, India 🇮🇳
 github: gauravkushwah8518-rgb
 
+socials:
+  instagram: gaurav_ig__k
+  x: Gauravkush9179
+
 areas_of_focus:
   - 🎨 UI/UX-driven frontend development
   - 🌌 Cinematic 3D web experiences (Three.js/GSAP)
@@ -71,6 +77,11 @@ life_philosophy: "Design it dark, animate it smooth, ship it real."
 
 </td>
 <td width="45%" valign="top">
+
+**🔭 Currently**
+- 🛠️ Building: AccessEase as an embeddable widget
+- 🌱 Learning: TypeScript + backend fundamentals
+- 🟢 Status: open to collaborations & freelance
 
 **🎯 2026 Focus**
 - Ship AccessEase as a public, embeddable widget
@@ -93,6 +104,12 @@ life_philosophy: "Design it dark, animate it smooth, ship it real."
 </table>
 
 <br/>
+
+<div align="center">
+  <em>“Design it dark, animate it smooth, ship it real.”</em> — <strong>Gaurav Kushwah</strong>
+</div>
+
+<br/>
 <img src="./assets/divider.svg" width="100%"/>
 <br/>
 
@@ -102,14 +119,20 @@ life_philosophy: "Design it dark, animate it smooth, ship it real."
 
 <br/>
 
+<!-- TODO: add repo + live demo badge links for the remaining projects once their repos are public -->
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧩 AccessEase
+### [🧩 AccessEase](https://github.com/gauravkushwah8518-rgb/Accessease)
 Universal accessibility toolkit — dyslexia mode, text-to-speech, voice commands, color-blind filters, reading ruler, and an embeddable widget script.
 
 `Vanilla JS` `Web APIs` `A11y`
+
+<a href="https://github.com/gauravkushwah8518-rgb/Accessease" target="_blank"><img src="https://img.shields.io/badge/Repo-A78BFA?style=flat-square&logo=github&logoColor=white&labelColor=1A0B22" alt="Repo"/></a>
+&nbsp;
+<a href="https://accessease.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-2DE2E6?style=flat-square&logo=netlify&logoColor=white&labelColor=1A0B22" alt="Live Demo"/></a>
 
 ### 🤖 GAURAV.OS
 A cinematic, first-person 3D developer portfolio — a walkthrough corridor with doors to each section, guided by a robot assistant (G-BOT) with its own terminal.
@@ -170,6 +193,22 @@ An AI-powered learning platform with an AI tutor, quizzes, flashcards, notes, an
 <img src="./assets/divider.svg" width="100%"/>
 <br/>
 
+<!-- GITHUB STATS -->
+<a id="-github-stats"></a>
+<img src="./assets/section-stats.svg" alt="GitHub Stats"/>
+
+<br/><br/>
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gauravkushwah8518-rgb&show_icons=true&hide_border=true&bg_color=0,1A0B22&title_color=FF2975&icon_color=A78BFA&text_color=F5F3FF" alt="GitHub Stats"/>
+  &nbsp;
+  <img height="165" src="https://streak-stats.demolab.com?user=gauravkushwah8518-rgb&hide_border=true&background=1A0B22&ring=FF2975&fire=A78BFA&currStreakLabel=2DE2E6&sideLabels=A78BFA&currStreakNum=F5F3FF&sideNums=F5F3FF&dates=8B7FA8" alt="GitHub Streak"/>
+</div>
+
+<br/>
+<img src="./assets/divider.svg" width="100%"/>
+<br/>
+
 <!-- CONNECT -->
 <a id="-connect-with-me"></a>
 <img src="./assets/section-connect.svg" alt="Connect With Me"/>
@@ -208,4 +247,3 @@ Building something interesting? My inbox is always open.
   <br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF2975,50:A78BFA,100:2DE2E6&height=80&section=footer"/>
 </div>
-# gauravkushwah8518-rgb
