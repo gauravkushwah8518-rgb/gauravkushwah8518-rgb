@@ -23,7 +23,9 @@
 
   <br/><br/>
 
-  <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="100%"/>
+  <div align="center">
+    <img src="./assets/terminal-intro.svg" alt="Terminal Introduction" width="620"/>
+  </div>
 
   <br/><br/>
 
