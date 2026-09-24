@@ -6,15 +6,19 @@
   <br/>
 
   <a href="https://github.com/gauravkushwah8518-rgb">
-    <img src="https://komarev.com/ghpvc/?username=gauravkushwah8518-rgb&label=Profile%20Views&color=FF2975&style=flat-square" alt="Profile Views"/>
+    <img src="https://komarev.com/ghpvc/?username=gauravkushwah8518-rgb&label=Profile%20Views&color=C026D3&style=flat-square" alt="Profile Views"/>
   </a>
   &nbsp;
   <a href="https://github.com/gauravkushwah8518-rgb?tab=repositories">
-    <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fgauravkushwah8518-rgb&query=%24.public_repos&suffix=%2B&label=Repositories&style=flat-square&color=A78BFA&labelColor=1A0B22" alt="Repositories"/>
+    <img src="https://img.shields.io/badge/Repositories-7%2B-A855F7?style=flat-square&labelColor=1A0B22" alt="Repositories"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/gauravkushwah8518-rgb?tab=repositories&stargazers=true">
+    <img src="https://img.shields.io/github/stars/gauravkushwah8518-rgb?label=Stars&style=flat-square&color=EC4899&labelColor=1A0B22" alt="Stars"/>
   </a>
   &nbsp;
   <a href="https://github.com/gauravkushwah8518-rgb?tab=followers">
-    <img src="https://img.shields.io/github/followers/gauravkushwah8518-rgb?label=Followers&style=flat-square&color=2DE2E6&labelColor=1A0B22" alt="Followers"/>
+    <img src="https://img.shields.io/github/followers/gauravkushwah8518-rgb?label=Followers&style=flat-square&color=8B5CF6&labelColor=1A0B22" alt="Followers"/>
   </a>
 
   <br/><br/>

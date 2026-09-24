@@ -1,102 +1,69 @@
-<svg width="650" height="215" viewBox="0 0 650 215" xmlns="http://www.w3.org/2000/svg">
+<svg width="660" height="310" viewBox="0 0 660 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal showing profile.json">
   <defs>
-    <linearGradient id="titlebar" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2B0B33"/>
-      <stop offset="100%" stop-color="#1F0826"/>
+    <linearGradient id="ti-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3F3F46"/>
+      <stop offset="100%" stop-color="#27272A"/>
     </linearGradient>
-    <linearGradient id="tborder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FF2975">
-        <animate attributeName="stop-color" values="#FF2975;#2DE2E6;#A78BFA;#FF2975" dur="5s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#2DE2E6">
-        <animate attributeName="stop-color" values="#2DE2E6;#A78BFA;#FF2975;#2DE2E6" dur="5s" repeatCount="indefinite"/>
-      </stop>
+    <linearGradient id="ti-cursor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#A855F7"/>
     </linearGradient>
-    <linearGradient id="online" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF2975"/>
-      <stop offset="100%" stop-color="#2DE2E6"/>
-    </linearGradient>
-    <filter id="tglow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="1.6" result="b"/>
+    <filter id="ti-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
-    <clipPath id="c1"><rect x="24" y="44" width="0" height="18"><animate attributeName="width" values="0;0;120;120;120;0" keyTimes="0;0.01;0.06;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c2"><rect x="24" y="62" width="0" height="18"><animate attributeName="width" values="0;0;460;460;460;0" keyTimes="0;0.07;0.26;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c3"><rect x="24" y="84" width="0" height="18"><animate attributeName="width" values="0;0;185;185;185;0" keyTimes="0;0.28;0.35;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c4"><rect x="24" y="102" width="0" height="18"><animate attributeName="width" values="0;0;390;390;390;0" keyTimes="0;0.36;0.43;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c5"><rect x="24" y="120" width="0" height="18"><animate attributeName="width" values="0;0;395;395;395;0" keyTimes="0;0.44;0.51;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c6"><rect x="24" y="138" width="0" height="18"><animate attributeName="width" values="0;0;400;400;400;0" keyTimes="0;0.52;0.59;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c7"><rect x="24" y="160" width="0" height="18"><animate attributeName="width" values="0;0;120;120;120;0" keyTimes="0;0.61;0.66;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="c8"><rect x="24" y="178" width="0" height="17"><animate attributeName="width" values="0;0;505;505;505;0" keyTimes="0;0.67;0.76;0.8;0.99;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
-  <rect x="1" y="1" width="648" height="213" rx="12" fill="#0A0514" stroke="url(#tborder)" stroke-width="1.5"/>
-  <rect x="1" y="1" width="648" height="34" rx="12" fill="url(#titlebar)"/>
-  <rect x="1" y="20" width="648" height="15" fill="url(#titlebar)"/>
+  <!-- window -->
+  <rect x="0.75" y="0.75" width="658.5" height="308.5" rx="12" fill="#1E1E26" stroke="url(#ti-border)" stroke-width="1.5"/>
+  <!-- title bar -->
+  <path d="M0.75,12.75 a12,12 0 0 1 12,-12 h634.5 a12,12 0 0 1 12,12 v21.25 h-658.5 Z" fill="#2A2A33"/>
+  <rect x="0.75" y="34" width="658.5" height="0.5" fill="#3F3F46"/>
 
   <!-- traffic lights -->
-  <circle cx="24" cy="18" r="6" fill="#F472B6"/>
-  <circle cx="24" cy="16.5" r="2.2" fill="#ffffff" fill-opacity="0.35"/>
-  <circle cx="44" cy="18" r="6" fill="#A78BFA"/>
-  <circle cx="44" cy="16.5" r="2.2" fill="#ffffff" fill-opacity="0.35"/>
-  <circle cx="64" cy="18" r="6" fill="#2DE2E6"/>
-  <circle cx="64" cy="16.5" r="2.2" fill="#ffffff" fill-opacity="0.35"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="42" cy="18" r="6" fill="#FEBC2E"/>
+  <circle cx="62" cy="18" r="6" fill="#28C840"/>
 
   <!-- title -->
-  <text x="290" y="23" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#F9A8D4" fill-opacity="0.8">gaurav@dev-machine: ~</text>
+  <text x="330" y="23" text-anchor="middle" font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Courier New',monospace" font-size="11.5" fill="#9D9DA7">gaurav@dev — zsh</text>
 
-  <!-- online pill -->
-  <g transform="translate(618,18)">
-    <rect x="-44" y="-9" width="88" height="18" rx="9" fill="#1A0B22" stroke="url(#online)" stroke-width="1"/>
-    <circle cx="-32" cy="0" r="3.2" fill="#F472B6">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="8" y="4" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" fill="#F9A8D4" letter-spacing="1">ONLINE</text>
+  <!-- content -->
+  <g font-family="'SF Mono','Cascadia Code',Menlo,Consolas,'Courier New',monospace" font-size="13.5">
+    <!-- prompt + command -->
+    <text x="30" y="74" filter="url(#ti-glow)">
+      <tspan fill="#A855F7">❯</tspan> <tspan fill="#E4E4E7">cat profile.json</tspan>
+    </text>
+
+    <!-- JSON output : keys green, colons dim, values white — aligned columns -->
+    <text x="30" y="108" fill="#A1A1AC">{</text>
+
+    <text x="54" y="136" fill="#4ADE80">"name"</text>
+    <text x="140" y="136" fill="#A1A1AC">:</text>
+    <text x="156" y="136" fill="#E4E4E7">"Gaurav Kushwah"</text>
+
+    <text x="54" y="162" fill="#4ADE80">"role"</text>
+    <text x="140" y="162" fill="#A1A1AC">:</text>
+    <text x="156" y="162" fill="#E4E4E7">"Frontend Developer"</text>
+
+    <text x="54" y="188" fill="#4ADE80">"location"</text>
+    <text x="140" y="188" fill="#A1A1AC">:</text>
+    <text x="156" y="188" fill="#E4E4E7">"Gwalior, India 🇮🇳"</text>
+
+    <text x="54" y="214" fill="#4ADE80">"focus"</text>
+    <text x="140" y="214" fill="#A1A1AC">:</text>
+    <text x="156" y="214" fill="#E4E4E7">"UI/UX, Three.js/GSAP, clean UI"</text>
+
+    <text x="54" y="240" fill="#4ADE80">"status"</text>
+    <text x="140" y="240" fill="#A1A1AC">:</text>
+    <text x="156" y="240" fill="#E4E4E7">"Open to internships &amp; collabs"</text>
+
+    <text x="30" y="268" fill="#A1A1AC">}</text>
+
+    <!-- fresh prompt + blinking cursor -->
+    <text x="30" y="296" fill="#A855F7">❯</text>
+    <rect x="48" y="284" width="9" height="16" fill="url(#ti-cursor)">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
   </g>
-
-  <!-- subtle scanlines -->
-  <g stroke="#F472B6" stroke-opacity="0.05">
-    <line x1="0" y1="44" x2="650" y2="44"/>
-    <line x1="0" y1="64" x2="650" y2="64"/>
-    <line x1="0" y1="84" x2="650" y2="84"/>
-    <line x1="0" y1="104" x2="650" y2="104"/>
-    <line x1="0" y1="124" x2="650" y2="124"/>
-    <line x1="0" y1="144" x2="650" y2="144"/>
-    <line x1="0" y1="164" x2="650" y2="164"/>
-    <line x1="0" y1="184" x2="650" y2="184"/>
-    <line x1="0" y1="204" x2="650" y2="204"/>
-  </g>
-
-  <g font-family="'Courier New', monospace" font-size="13" fill="#FCE7F3">
-    <g clip-path="url(#c1)">
-      <text x="24" y="56" fill="#2DE2E6">$ <tspan fill="#FCE7F3">whoami</tspan></text>
-    </g>
-    <g clip-path="url(#c2)">
-      <text x="24" y="74" fill="#F472B6">&gt; Gaurav Kushwah — interactive, accessible, cinematic web.</text>
-    </g>
-    <g clip-path="url(#c3)">
-      <text x="24" y="96" fill="#2DE2E6">$ <tspan fill="#FCE7F3">cat focus.yaml</tspan></text>
-    </g>
-    <g clip-path="url(#c4)">
-      <text x="24" y="114" fill="#F9A8D4">  frontend: [ React, Three.js, GSAP, WebGL ]</text>
-    </g>
-    <g clip-path="url(#c5)">
-      <text x="24" y="132" fill="#F9A8D4">  design:   [ glassmorphism, dark UI, motion ]</text>
-    </g>
-    <g clip-path="url(#c6)">
-      <text x="24" y="150" fill="#F9A8D4">  now:      [ AccessEase, GAURAV.OS, StudyOS ]</text>
-    </g>
-    <g clip-path="url(#c7)">
-      <text x="24" y="172" fill="#2DE2E6">$ <tspan fill="#FCE7F3">status --vibes</tspan></text>
-    </g>
-    <g clip-path="url(#c8)">
-      <text x="24" y="190" fill="#A78BFA">✔ shipping clean code<tspan fill="#F9A8D4"> · open to collaborate · always building</tspan></text>
-    </g>
-  </g>
-
-  <!-- blinking cursor after the status command -->
-  <rect x="133" y="161" width="8" height="13" fill="#A78BFA" opacity="0">
-    <animate attributeName="opacity" values="0;0;1;1;0;1;0;1;0;0" keyTimes="0;0.61;0.66;0.69;0.72;0.75;0.78;0.81;0.96;1" dur="12s" repeatCount="indefinite"/>
-  </rect>
 </svg>
